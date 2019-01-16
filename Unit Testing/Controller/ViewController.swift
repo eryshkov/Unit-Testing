@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UITableViewController {
+    
+    var playData = PlayData()
 
     override func viewDidLoad() {
         super.viewDidLoad()
