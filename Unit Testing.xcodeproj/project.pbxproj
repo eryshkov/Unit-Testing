@@ -51,6 +51,7 @@
 		5CE4841221EF164D00918929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CE4842121EF170800918929 /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
 		5CE4842321EF190200918929 /* PlayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
+		5CE4842521EF3AB200918929 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		5CE483E421EF164B00918929 = {
 			isa = PBXGroup;
 			children = (
+				5CE4842521EF3AB200918929 /* README.md */,
 				5CE483EF21EF164B00918929 /* Unit Testing */,
 				5CE4840421EF164D00918929 /* Unit TestingTests */,
 				5CE4840F21EF164D00918929 /* Unit TestingUITests */,
