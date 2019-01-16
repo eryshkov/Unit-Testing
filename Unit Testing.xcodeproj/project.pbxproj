@@ -14,6 +14,7 @@
 		5CE483FB21EF164D00918929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE483F921EF164D00918929 /* LaunchScreen.storyboard */; };
 		5CE4840621EF164D00918929 /* Unit_TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE4840521EF164D00918929 /* Unit_TestingTests.swift */; };
 		5CE4841121EF164D00918929 /* Unit_TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE4841021EF164D00918929 /* Unit_TestingUITests.swift */; };
+		5CE4842221EF170800918929 /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5CE4842121EF170800918929 /* plays.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5CE4840C21EF164D00918929 /* Unit TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit TestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE4841021EF164D00918929 /* Unit_TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_TestingUITests.swift; sourceTree = "<group>"; };
 		5CE4841221EF164D00918929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE4842121EF170800918929 /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +99,11 @@
 		5CE483EF21EF164B00918929 /* Unit Testing */ = {
 			isa = PBXGroup;
 			children = (
-				5CE483F021EF164B00918929 /* AppDelegate.swift */,
-				5CE483F221EF164B00918929 /* ViewController.swift */,
-				5CE483F421EF164B00918929 /* Main.storyboard */,
+				5CE4842021EF16D600918929 /* Model */,
+				5CE4841F21EF16D000918929 /* View */,
+				5CE4841E21EF16C600918929 /* Controller */,
 				5CE483F721EF164C00918929 /* Assets.xcassets */,
-				5CE483F921EF164D00918929 /* LaunchScreen.storyboard */,
+				5CE483F021EF164B00918929 /* AppDelegate.swift */,
 				5CE483FC21EF164D00918929 /* Info.plist */,
 			);
 			path = "Unit Testing";
@@ -123,6 +125,31 @@
 				5CE4841221EF164D00918929 /* Info.plist */,
 			);
 			path = "Unit TestingUITests";
+			sourceTree = "<group>";
+		};
+		5CE4841E21EF16C600918929 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CE483F221EF164B00918929 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CE4841F21EF16D000918929 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CE483F421EF164B00918929 /* Main.storyboard */,
+				5CE483F921EF164D00918929 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CE4842021EF16D600918929 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CE4842121EF170800918929 /* plays.txt */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE4842221EF170800918929 /* plays.txt in Resources */,
 				5CE483FB21EF164D00918929 /* LaunchScreen.storyboard in Resources */,
 				5CE483F821EF164C00918929 /* Assets.xcassets in Resources */,
 				5CE483F621EF164B00918929 /* Main.storyboard in Resources */,
