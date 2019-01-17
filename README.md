@@ -1,9 +1,8 @@
 #  Unit Testing
 
 <div align = "center">
-<img src="/screens/1.jpg" width="30%">        
-<img src="/screens/2.jpg" width="30%">       
-<img src="/screens/3.jpg" width="30%">       
+<img src="/screens/1.jpg" width="40%">        
+<img src="/screens/2.jpg" width="40%">       
 </div>
 
 <p align="center">
@@ -13,6 +12,8 @@
 <img src="https://img.shields.io/badge/iOS-12%2B-brightgreen.svg" alt="iOS 12"/>
 <img src="https://img.shields.io/badge/licence-MIT-lightgray.svg" alt="Licence MIT"/>
 </p>
+
+[Demo video here]()
 
 ## Main functionality
 * An App tells how to write unit tests and user interface tests using Xcode's built-in testing framework

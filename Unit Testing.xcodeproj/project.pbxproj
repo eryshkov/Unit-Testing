@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CDDD50D21F0CE3700AE77F1 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		5CDDD50E21F0CE3700AE77F1 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		5CE483ED21EF164B00918929 /* Unit Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE483F021EF164B00918929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CE483F221EF164B00918929 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,9 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CDDD50C21F0CA9800AE77F1 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5CDDD50E21F0CE3700AE77F1 /* 1.jpg */,
+				5CDDD50D21F0CE3700AE77F1 /* 2.jpg */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
 		5CE483E421EF164B00918929 = {
 			isa = PBXGroup;
 			children = (
+				5CDDD50C21F0CA9800AE77F1 /* screens */,
 				5CE4842521EF3AB200918929 /* README.md */,
 				5CE483EF21EF164B00918929 /* Unit Testing */,
 				5CE4840421EF164D00918929 /* Unit TestingTests */,
@@ -511,7 +523,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2EB4KC7497;
 				INFOPLIST_FILE = "Unit TestingTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -534,7 +546,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2EB4KC7497;
 				INFOPLIST_FILE = "Unit TestingTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
