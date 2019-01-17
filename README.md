@@ -20,6 +20,7 @@
 * uses `XCTestCase` & `XCTAssertEqual`
 * uses `CharacterSet.alphanumerics`
 * uses `measure()` method
+* uses `private(set)` mod
 * 
 
 
