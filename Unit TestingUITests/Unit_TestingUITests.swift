@@ -41,9 +41,10 @@ class Unit_TestingUITests: XCTestCase {
         textField.typeText("test")
         
         filterAlert.buttons["Filter"].tap()
+        let table = app.tables
         
-        print("count=",app.tables.cells.count)
-        XCTAssertEqual(app.tables.cells.count, 56, "There should be 56 words matching 'test'")
+        print("count=",table.cells.count)
+        XCTAssertEqual(table.cells.count, 56, "There should be 56 words matching 'test'")
     }
 
 }
