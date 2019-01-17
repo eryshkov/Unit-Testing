@@ -21,7 +21,7 @@
 * uses `CharacterSet.alphanumerics`
 * uses `measure()` method
 * uses `private(set)` mod
-* 
+* uses `range(of: input, options: .caseInsensitive)` method to find the first occurrence of a given string
 
 
 ## License
